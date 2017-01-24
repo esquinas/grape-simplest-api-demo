@@ -1,3 +1,9 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
-gem "rack", "2.0.1"
+# gem "rack", "2.0.1"
+gem "grape"
+
+group :test do
+  gem "minitest", require: false
+  gem "rack-test", require: "rack/test"
+end
