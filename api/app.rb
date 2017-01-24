@@ -1,7 +1,7 @@
 module API
   class App < Grape::API
-    format :json
+    # format :json
 
-    add_swagger_documentation
+    # add_swagger_documentation
   end
 end

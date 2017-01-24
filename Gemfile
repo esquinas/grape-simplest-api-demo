@@ -5,7 +5,7 @@ gem 'grape'
 gem 'grape-swagger'
 
 group :develpment, :test do
-  gem 'minitest', require: false
-  gem 'rack-test', require: 'rack/test'
-  gem 'airborne'
+  gem 'minitest' #, require: false
+  # gem 'rack-test', require: 'rack/test'
+  # gem 'airborne'
 end
