@@ -1,3 +1,6 @@
+require 'grape'
+# require 'grape-swagger'
+
 module API
   class App < Grape::API
     # format :json
