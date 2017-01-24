@@ -1,6 +1,6 @@
-$LOAD_PATH.unshift File.expand_path '..', __FILE__
+# $:.unshift File.expand_path "..", __FILE__
 
-require 'lib/env'
-require 'lib/app'
+require './api/env'
+require './api/app'
 
 run API::App

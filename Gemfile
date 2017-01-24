@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 gem 'grape'
 gem 'grape-swagger'
 
-group :test do
+group :develpment, :test do
   gem 'minitest', require: false
   gem 'rack-test', require: 'rack/test'
+  gem 'airborne'
 end
