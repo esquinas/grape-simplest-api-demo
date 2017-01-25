@@ -6,13 +6,13 @@ This is a Grape API using Rack and MiniTest.
 
 #### Run tests:
 
-```sh
+```bash
 $ rake
 ```
 
 #### Run server:
 
-```sh
+```bash
 $ rackup
 ```
 Then go to <http://localhost:9292/api/v0/hello>
