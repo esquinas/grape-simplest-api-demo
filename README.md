@@ -1,6 +1,6 @@
 # Grape simplest API
 
-This is a Grape API using Rack and MiniTest.
+This is a simple and standalone Grape API using Rack and MiniTest.
 
 
 # Install
@@ -23,6 +23,7 @@ $ rake
 ```bash
 $ rackup
 ```
-Then go to <http://localhost:9292/api/v0/hello>
+Then go to <http://localhost:9292/api/v0/hello>. It should return some JSON.
 
-View your swagger documentation on <http://localhost:9292/api/v0/swagger_doc>
+Also, view your swagger documentation on
+<http://localhost:9292/api/v0/swagger_doc>

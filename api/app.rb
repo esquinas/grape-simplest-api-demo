@@ -8,7 +8,7 @@ require 'grape-swagger'
 module MyApp
   class Hello < Grape::API
     resource :hello do
-      # This block only affects Swagger documentation.
+      # Description affects only Swagger documentation.
       desc 'Says Hello.' 
 
       get do
