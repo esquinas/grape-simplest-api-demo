@@ -1,5 +1,5 @@
 require 'grape'
-# require 'grape-swagger'
+require 'grape-swagger'
 
 # INFO: Checkout <https://github.com/switzersc/grape-api-tutorial>
 # INFO: Checkout <https://github.com/ruby-grape/grape-on-rack/tree/master/app>
@@ -8,9 +8,11 @@ require 'grape'
 module MyApp
   class Hello < Grape::API
     resource :hello do
-      desc 'Says Hello.'
+      # This block only affects Swagger documentation.
+      desc 'Says Hello.' 
+
       get do
-        { 'text' => 'Hello' }
+        { text: 'Hello' }
       end
     end
   end
@@ -22,7 +24,6 @@ module MyApp
 
     mount MyApp::Hello
 
-
-    # add_swagger_documentation
+    add_swagger_documentation
   end
 end
