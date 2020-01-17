@@ -33,7 +33,7 @@ GEM
     mustermann (1.0.3)
     mustermann-grape (1.0.0)
       mustermann (~> 1.0.0)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-test (0.6.3)
@@ -54,7 +54,7 @@ DEPENDENCIES
   grape (~> 1.2.4)
   grape-swagger
   minitest
-  rack (~> 2.0.6)
+  rack (~> 2.0.8)
   rack-test
 
 BUNDLED WITH
