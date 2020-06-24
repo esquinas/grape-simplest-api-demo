@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "rack", "~>2.0.8"
+gem "rack", "~>2.1.4"
 gem 'grape', "~>1.2.4"
 gem 'grape-swagger'
 
